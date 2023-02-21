@@ -1,4 +1,4 @@
-// import './bootstrap';
+import './bootstrap';
 // import { createApp } from 'vue';
 // import { GoogleMap, Marker } from "vue3-google-map";
 // import Welcome from './Welcome.vue';
@@ -10,5 +10,6 @@
 
 import { createApp } from 'vue'
 import Welcome from './Welcome.vue';
+
 
 createApp(Welcome).mount('#app')
